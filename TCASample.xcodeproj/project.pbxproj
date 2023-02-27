@@ -19,7 +19,7 @@
 		E2765A1E2997D5F600B8A546 /* GitHubItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2765A1D2997D5F600B8A546 /* GitHubItemEntity.swift */; };
 		E2765A202997D7BC00B8A546 /* GitHubRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2765A1F2997D7BC00B8A546 /* GitHubRepositoryImpl.swift */; };
 		E285BAF22972D1AA00969376 /* TCASampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285BAF12972D1AA00969376 /* TCASampleApp.swift */; };
-		E285BB032972D1AC00969376 /* TCASampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285BB022972D1AC00969376 /* TCASampleTests.swift */; };
+		E285BB032972D1AC00969376 /* GitHubReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285BB022972D1AC00969376 /* GitHubReducer.swift */; };
 		E285BB1D2972D49400969376 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E285BB1C2972D49400969376 /* ComposableArchitecture */; };
 		E2B9FC1A29ABA3070056BBC8 /* GitHubItemEntityMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9FC1929ABA3070056BBC8 /* GitHubItemEntityMock.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		E285BAEE2972D1AA00969376 /* TCASample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCASample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E285BAF12972D1AA00969376 /* TCASampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCASampleApp.swift; sourceTree = "<group>"; };
 		E285BAFE2972D1AC00969376 /* TCASampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCASampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E285BB022972D1AC00969376 /* TCASampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCASampleTests.swift; sourceTree = "<group>"; };
+		E285BB022972D1AC00969376 /* GitHubReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubReducer.swift; sourceTree = "<group>"; };
 		E2B9FC1929ABA3070056BBC8 /* GitHubItemEntityMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubItemEntityMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,7 +185,7 @@
 		E2B9FC1529AB84340056BBC8 /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
-				E285BB022972D1AC00969376 /* TCASampleTests.swift */,
+				E285BB022972D1AC00969376 /* GitHubReducer.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B9FC1A29ABA3070056BBC8 /* GitHubItemEntityMock.swift in Sources */,
-				E285BB032972D1AC00969376 /* TCASampleTests.swift in Sources */,
+				E285BB032972D1AC00969376 /* GitHubReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
